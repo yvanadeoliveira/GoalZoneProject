@@ -35,6 +35,7 @@ This work was submitted as part of the **Applied Data Analytics** module.
 ---
 
 ## 📈 Key Features
+
 Exploratory Data Analysis (EDA)
 
 Data Cleaning and Feature Engineering
@@ -48,19 +49,19 @@ Clear insights and final recommendation
 ---
 
 ## 📌 Key Findings
-Previous No-Shows is a strong predictor of future attendance – members who previously missed classes are more likely to do so again.
 
-Member Type, Visit Time, and Class Type were also associated with attendance behavior.
+Members who book closer to the class date tend to attend more.
 
-The dataset had a mild class imbalance, favoring attendance over no-show.
+Longer-term members (over 24 months) show slightly higher attendance rates.
 
-Among the three models tested:
+Morning classes (AM) tend to have higher no-show rates compared to PM.
 
-Random Forest performed best with ~81% accuracy.
-
-Logistic Regression achieved ~76% accuracy.
-
-K-Nearest Neighbors underperformed due to sensitivity to high-dimensionality and class imbalance.
+Feature importance analysis shows days_before, months_as_member, and category as top predictors.
 
 Random Forest is the recommended model due to its accuracy and reliability in identifying no-shows.
+
+---
+
+## ✅ Conclusion
+This project demonstrates how machine learning can assist in operational decisions by predicting no-shows. GoalZone can now improve scheduling, optimize class sizes, and offer a better experience to active members.
 
